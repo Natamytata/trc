@@ -1,0 +1,23 @@
+header {
+    
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    font-family: "Bahnschrift SemiBold", 'Courier New', Courier, monospace;
+    font-size: medium;
+
+}
+.navigation-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+    margin: 1rem;
+}
+.time_work{
+    font-family:"Bahnschrift",'Courier New', Courier, monospace;
+}
