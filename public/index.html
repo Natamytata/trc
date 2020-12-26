@@ -16,16 +16,21 @@
     <header>
         <div class="container">
             <div class="layout">
-                <div class="layout heading">
+                <div class="layout heading hamburger-menu" >
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
                     <div>
                         <a href="index.html"><img
                                 src="https://bfplny.com/wp-content/uploads/2019/07/BrookfieldPlace_Logo_Black_1x.png"></a>
                     </div>
-                    <ul class="navigation-menu">
-                        <li><a href="shops.html">SHOPS</a></li>
-                        <li><a href="food.html">FOOD</a></li>
-                        <li><a href="">EVENTS</a></li>
-                        <li><a href="map.html">MAP</a></li>
+                    <ul class="navigation-menu menu__box">
+                        <li><a class="menu__item" href="shops.html">SHOPS</a></li>
+                        <li><a class="menu__item" href="food.html">FOOD</a></li>
+                        <li><a class="menu__item" href="events.html">EVENTS</a></li>
+                        <li><a class="menu__item" href="work.html">WORKING TIME </a></li>
+                        <li><a class="menu__item" href="map.html">MAP</a></li>
                     </ul>
                 </div>
             </div>
@@ -66,7 +71,6 @@
         </div>
         <div class="container">
             <div class="layout">
-
                 <div class="events purple">
                     <h2 class="">UPCOMING EVENTS</h2>
                     <div class="happenings_items">
@@ -83,50 +87,54 @@
                             <label>DIGITAL TRIVIA TUESDAYS GAMES</label>
                         </div>
                     </div>
+                    <button class="button"><a href="events.html">See all events →</a></button>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="layout">
-                <div class="events blue">
-                    <h2 class="">SHOPS</h2>
-                    <div class="happenings_items ">
-                        <div class="happenings_item blue">
-                            <img src="./css/assets/theatre.jpg" class="image">
-                            <label>THEATRE FOR ONE: HERE WE ARE</label>
-                        </div>
-                        <div class="happenings_item blue">
-                            <img src="./css/assets/pink.jpg" class="image">
-                            <label>STUDIO BFPL: ENCOUNTERS</label>
-                        </div>
-                        <div class="happenings_item blue">
-                            <img src="./css/assets/people.jpg" class="image">
-                            <label>TRIVIA TUESDAYS</label>
-                        </div>
+            <div class="events blue">
+                <h2 class="">SHOPS</h2>
+                <div class="events_blocks">
+                    <div class="events_left_2">
+                        <img src="https://359964.smushcdn.com/2071539/wp-content/uploads/2019/06/1.2_Babesta-current_Babesta-current_v1.jpg?lossy=1&strip=1&webp=1"
+                            class="image left">
+                        <label class="text_label">BABESTA</label>
+                    </div>
+                    <div class="events_left_2">
+                        <img src="https://359964.smushcdn.com/2071539/wp-content/uploads/2019/06/1.1.5_GU608_SS19-CAMPAIGN_DPS_MASTER_PR_CROP_300dpi_1GU608_SS19-CAMPAIGN_DPS_MASTER_PR_CROP_300dpi_1_v1-1.jpg?lossy=1&strip=1&webp=1"
+                            class="image left">
+                        <label class="text_label">GUCCI</label>
+                    </div>
+                    <div class="events_left_2">
+                        <img src="https://359964.smushcdn.com/2071539/wp-content/uploads/2019/06/1.7_ClubMonacoWomens_ClubMonacoWomens_v1-1.jpg?lossy=1&strip=1&webp=1"
+                            class="image left">
+                        <label class="text_label">CLUB MONACO WOMEN’S</label>
                     </div>
                 </div>
+                <button class="button"><a href="shops.html">See all shops →</a></button>
             </div>
         </div>
         <div class="container">
             <div class="events green">
-                <h2 class="">UPCOMING EVENTS</h2>
+                <h2 class="">FOOD</h2>
                 <div class="events_blocks">
                     <div class="events_left">
-                        <img src="https://359964.smushcdn.com/2071539/wp-content/uploads/2019/06/1.7_ClubMonacoWomens_ClubMonacoWomens_v1-1.jpg?lossy=1&strip=1&webp=1"
+                        <img src="https://359964.smushcdn.com/2071539/wp-content/uploads/2019/06/2.1.3Chopt_currentjpghopt_currentjpg_v1.jpg?lossy=1&strip=1&webp=1"
                             class="image left">
-                        <label class="text_label">THEATRE FOR ONE</label>
+                        <label class="text_label">CHOPT</label>
                     </div>
                     <div class="events_left">
-                        <img src="https://359964.smushcdn.com/2071539/wp-content/uploads/2019/06/1.1.27_UNTUCKit_curent_UNTUCKit_curent_v1-1.jpg?lossy=1&strip=1&webp=1"
+                        <img src="https://359964.smushcdn.com/2071539/wp-content/uploads/2019/06/Black_Seed_v3.jpg?lossy=1&strip=1&webp=1"
                             class="image left">
-                        <label class="text_label">STUDIO BFPL: ENCOUNTERS</label>
+                        <label class="text_label">BLACK SEED BAGEL</label>
                     </div>
                     <div class="events_left">
-                        <img src="https://359964.smushcdn.com/2071539/wp-content/uploads/2019/06/1.1.27_UNTUCKit_curent_UNTUCKit_curent_v1-1.jpg?lossy=1&strip=1&webp=1"
+                        <img src="https://359964.smushcdn.com/2071539/wp-content/uploads/2019/06/Parm_EggplantParm_0039-1.jpg?lossy=1&strip=1&webp=1"
                             class="image left">
-                        <label class="text_label">TRIVIA TUESDAYS</label>
+                        <label class="text_label">PARM</label>
                     </div>
                 </div>
+                <button class="button"><a href="food.html">See all food →</a></button>
             </div>
         </div>
         </div>

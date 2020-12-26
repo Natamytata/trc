@@ -234,6 +234,21 @@ header .time_work {
   background-color: #d61987;
 }
 
+.button {
+  border: 1px solid #fcf4e7; 
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden; 
+  padding: 10px 15px;
+  margin: 20px;
+}
+
+.button>a{ 
+  color: white;
+  font-family: "Bahnschrift SemiBold";
+}
+
 .events > h2 {
   font-family: "Bahnschrift SemiBold";
   text-align: left;
@@ -276,6 +291,17 @@ header .time_work {
   display: -ms-flexbox;
   display: flex;
   background-color: #005f00;
+  height: 80%;
+  width: 80%;
+  margin: 2rem 1rem;
+  font-family: "Bahnschrift SemiBold";
+}
+
+.events_left_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #402475;
   height: 80%;
   width: 80%;
   margin: 2rem 1rem;
