@@ -11,14 +11,18 @@
     <link rel="stylesheet" href="./css/footer.css">
     <meta name="viewport" content="width=580px" maximum-scale=1.0 />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/index.js"></script>
     <script>
        $(document).ready(function() {
         $('.menu-burger__header').click(function(){
         $('.menu-burger__header').toggleClass('open-menu');
         $('.navigation-menu').toggleClass('open-menu');
+        });
     });
-});
+        getFeedbackList();
+        getWorkingTime();
     </script>
+
 </head>
 
 <body>
@@ -145,6 +149,7 @@
                 <button class="button"><a href="food.html">See all food →</a></button>
             </div>
         </div>
+        <div id="feedback"></div>
         </div>
     </main>
     <footer class="container">
