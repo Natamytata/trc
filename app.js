@@ -4,4 +4,4 @@ app.use(express.static("public"));
 app.get("/",(request,response)=>{
     response.send("Hello Loha")
 })
-app.listen(3001, () => console.log('App listening on port 3001.'))
+app.listen(3000, () => console.log('App listening on port 3000.'))

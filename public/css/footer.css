@@ -1,3 +1,35 @@
 footer {
-    background-color: darkolivegreen;
+    background-color: black;
+
+}
+#logo{
+    height: 300%;
+    width: 5%;
+    margin: 4rem;}
+#insta{
+    margin: 1rem;
+}
+#facebook{
+    margin: 1rem;
+}
+#twitter{
+    margin: 1rem;
+}
+#youtube{
+    margin: 1rem;
+}
+.address-sa{
+    color: white;
+    float: right;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 40rem;
+    margin-top: 75px;
+}
+#menu{
+    color: white;
+    float: right;
+    font-size: 16px;
+
+   
 }

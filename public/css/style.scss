@@ -1,0 +1,396 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: sans-serif "Brown Standard Bold";
+}
+a{
+    text-decoration: none!important;
+    color: black     ;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.layout {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.black{
+    color: black!important;
+}
+
+.border{
+    border-top: 0.15em solid black;
+}
+.navigation-menu{
+    font-weight: 700; 
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+header {
+    .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 5rem;
+        font-family: "Bahnschrift SemiBold", 'Courier New', Courier, monospace;
+        font-size: medium;
+    }
+    .navigation-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        list-style-type: none;
+        margin: 1rem;
+    }
+    .time_work {
+        font-family: "Bahnschrift", 'Courier New', Courier, monospace;
+    }
+}
+
+.page_hero_img {
+    background: url(https://bfplny.com/wp-content/uploads/2020/04/BFPL_Sunny_WG_Homepage_Header.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: calc(100px + 25vw);
+    margin: 4rem;
+    max-height: 431px;
+    max-width: 1300px;
+    min-height: 236px;
+    position: relative;
+    width: 100%;
+    /*padding: 100px;*/
+
+    &.shops{
+        background-image: url(https://359964.smushcdn.com/2071539/wp-content/uploads/2019/07/BAM_Camp19_Shopping_v2.jpg?lossy=1&strip=1&webp=1);
+    }
+
+    &.food{
+        background-image: url(https://359964.smushcdn.com/2071539/wp-content/uploads/2019/11/BFPL_Header_Food.jpg?lossy=1&strip=1&webp=1);
+    }
+}
+
+.page_hero_bkg {
+    width: 100%;
+    height: 110%;
+    background-image: url(https://bfplny.com/wp-content/themes/BFPL-Theme%204/css/assets/yellow-swath.svg);
+    background-size: 130% 100%;
+    display: flex;
+    justify-content: center;
+    
+    &.shops{
+        background-image: url(https://bfplny.com/wp-content/themes/BFPL-Theme%204/css/assets/purple-swath.svg);
+    }
+    &.food{
+        background-image: url(http://bfplny.com/wp-content/themes/BFPL-Theme%204/css/assets/green-swath.svg);
+    }
+}
+
+#page_hero_logo {
+    height: 60%;
+    margin: 2rem;
+}
+
+.happenings_info {
+    margin: 2rem 4rem;
+}
+
+.happenings_info>h2 {
+    font-family: "Bahnschrift SemiBold";
+    text-align: left;
+    font-size: 48px;
+    /* margin: 1rem; */
+}
+
+.happenings_items {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.happenings_item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(252,244,231);
+    height: 80%;
+    width: 80%;
+    margin: 2rem 1rem;
+
+    &.blue{
+        background-color: rgb(64,36,117);
+        color: white;
+    }
+    &.purple{
+        background-color: rgb(171,6,97);
+        color: white;
+    }
+    &.green{
+        background-color: rgb(0,95,0);
+        color: white;
+    }
+}
+
+.happenings_item>label {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-family: "Bahnschrift SemiBold";
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    &.left {
+        width: 40%;
+        height: 100%;
+        background-attachment: fixed;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        background-position: center !important;
+        background-size: cover !important;
+        float: left;
+        position: relative;
+    }
+}
+.box-height{
+    height: 100%;
+    width: 100%;
+}
+.events {
+    background-color: rgb(255, 255, 255);
+    padding-left: 15%;
+    padding-right: 15%;
+    //height: 100%;
+    width: 100%;
+    &.blue {
+        background-color: rgb(84, 50, 150);
+    }
+    &.green {
+        background-color: rgb(0, 128, 0);
+    }
+    &.purple{
+        background-color: rgb(214, 25, 135);
+    }
+}
+
+.events>h2 {
+    font-family: "Bahnschrift SemiBold";
+    text-align: left;
+    font-size: 48px;
+    padding: 2rem 4rem;
+    color: white;
+}
+
+.events_blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.events_smallblocks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(128, 0, 75);
+    height: 80%;
+    width: 80%;
+    margin: 2rem 1rem;
+}
+
+.events_left {
+    display: flex;
+    background-color: rgb(0,95,0);
+    height: 80%;
+    width: 80%;
+    margin: 2rem 1rem;
+    font-family: "Bahnschrift SemiBold";
+}
+
+.text_label {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.events_smallblocks>label {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Bahnschrift SemiBold";
+}
+
+.events_smallblocks>img {
+    /* margin-left: auto; 
+        margin-right: auto;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        float: left;
+        height: 80%;*/
+}
+
+//.shops {
+    //margin: 5rem 0rem;
+    //background-color: rgb(111, 14, 156);
+    //padding: 2rem;
+//}
+
+.shops>h2 {
+    font-family: "Bahnschrift SemiBold";
+    text-align: left;
+    font-size: 48px;
+    padding: 2rem 4rem;
+    color: white;
+}
+
+.shops_blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.shops_smallblocks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(54, 4, 66);
+    height: 80%;
+    width: 80%;
+    margin: 2rem 1rem;
+}
+
+.shops_smallblocks>label {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Bahnschrift SemiBold";
+}
+
+footer {
+    background-color: black
+}
+
+#logo {
+    height: 300%;
+    width: 15%;
+    margin: 4rem;
+}
+
+#insta {
+    cursor: pointer;
+    margin: 1rem;
+}
+
+#facebook {
+    cursor: pointer;
+    margin: 1rem;
+}
+
+#twitter {
+    cursor: pointer;
+    margin: 1rem;
+}
+
+#youtube {
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.address-sa {
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    margin: auto 5em auto auto;
+    text-align: center;
+}
+
+.logotypes {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#menu {
+    color: white;
+    float: right;
+    font-size: 16px;
+}
+
+
+.around-box{
+    display: flex;
+}
+
+.block-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-card-image{
+    display: flex;
+    height: 80%;
+    width: 80%;
+    margin: 2rem 1rem;
+    font-family: "Bahnschrift SemiBold";
+    overflow: hidden;
+}
+.text-box{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto auto 1.5em;
+    //margin-left: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.text-box>.text{
+    color: black;
+    font-weight: normal;
+    margin-top: 2em;
+}
+
+.map-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.map{
+    width: 80%;
+}
+
+@media (max-width: 930px) {
+    .happenings_items,
+    .events_blocks,
+    .shops_blocks,
+    .block-cards {
+        flex-wrap: wrap;
+    }
+    header {
+        .heading {
+            padding: 1rem 3rem;
+        }
+    }
+}
