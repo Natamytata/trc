@@ -10,29 +10,37 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
     <meta name="viewport" content="width=580px" maximum-scale=1.0 />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>
+       $(document).ready(function() {
+        $('.menu-burger__header').click(function(){
+        $('.menu-burger__header').toggleClass('open-menu');
+        $('.navigation-menu').toggleClass('open-menu');
+    });
+});
+    </script>
 </head>
 
 <body>
     <header>
         <div class="container">
             <div class="layout">
-                <div class="layout heading hamburger-menu" >
-                    <input id="menu__toggle" type="checkbox" />
-                    <label class="menu__btn" for="menu__toggle">
-                      <span></span>
-                    </label>
+                <div class="layout heading">
+                    <div class="menu-burger__header">
+                        <span></span>
+                    </div>
                     <div>
                         <a href="index.html"><img
                                 src="https://bfplny.com/wp-content/uploads/2019/07/BrookfieldPlace_Logo_Black_1x.png"></a>
                     </div>
-                    <ul class="navigation-menu menu__box">
+                    <ul class="navigation-menu">
                         <li><a class="menu__item" href="shops.html">SHOPS</a></li>
                         <li><a class="menu__item" href="food.html">FOOD</a></li>
                         <li><a class="menu__item" href="events.html">EVENTS</a></li>
                         <li><a class="menu__item" href="work.html">WORKING TIME </a></li>
                         <li><a class="menu__item" href="map.html">MAP</a></li>
                     </ul>
-                </div>
+                </div> 
             </div>
         </div>
     </header>
