@@ -59,7 +59,11 @@ app.get("/",(request,response)=>{
 app.get("/feedbackList", async (request, response) => {
     const feedbackList = 
     await postgres.multiple(
-    `select * from feedback;`,
+    `
+        select * from feedback
+        order by id desc
+        limit 20;
+    `,
     []);
 
     response.send(feedbackList);
