@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Brookfield Place|New York</title>
+    <link rel="icon" href="https://bfplny.com/wp-content/uploads/2019/10/BFPL_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <meta name="viewport" content="width=580px" maximum-scale=1.0 />
+    <script src="./js/index.js"></script>
+    <script>
+        getFeedbackList();
+        getWorkingTime();
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="layout">
+                <div class="layout heading hamburger-menu" >
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    <div>
+                        <a href="index.html"><img
+                                src="https://bfplny.com/wp-content/uploads/2019/07/BrookfieldPlace_Logo_Black_1x.png"></a>
+                    </div>
+                    <ul class="navigation-menu menu__box">
+                        <li><a class="menu__item" href="shops.html">SHOPS</a></li>
+                        <li><a class="menu__item" href="food.html">FOOD</a></li>
+                        <li><a class="menu__item" href="events.html">EVENTS</a></li>
+                        <li><a class="menu__item" href="work.html">WORKING TIME </a></li>
+                        <li><a class="menu__item" href="map.html">MAP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form action="/createFeedback" method="POST" target="dummyframe">
+            <input type="email" name="email" placeholder="Your email">
+            <input type="text" name="feedback" placeholder="Your feedback">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer class="container">
+        <img id="logo" alt="BFPL Logo" src="image/BFPL_Mark_White.png">
+        <div class="logotypes">
+            <img id="insta" src="https://bfplny.com/wp-content/themes/BFPL-Theme/images/icons/instagram.png"
+                alt="Instagram Icon">
+            <img id="facebook" src="https://bfplny.com/wp-content/themes/BFPL-Theme/images/icons/facebook.png"
+                alt="Facebook Icon">
+            <img id="twitter" src="https://bfplny.com/wp-content/themes/BFPL-Theme/images/icons/twitter.png"
+                alt="Twitter Icon">
+            <img id="youtube" src="https://bfplny.com/wp-content/themes/BFPL-Theme/images/icons/youtube.png"
+                alt="Youtube Icon">
+        </div>
+        <div class="address-sa"><strong>212.978.1673</strong><br> 230 Vesey Street<br> New York, NY 10281
+        </div>
+
+    </footer>
+</body>
+
+</html>
